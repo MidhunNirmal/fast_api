@@ -23,7 +23,7 @@ class usersschema(BaseModel):
 class showuser(BaseModel):
     name:str
     email:str
-    blogss: list[blog]
+    blogss: list[blogbase]
     class Config():
         orm_mode = True
 class showuser1(BaseModel):
